@@ -1,14 +1,29 @@
-const up = document.getElementById('up');
+const imgMain = document.getElementsByClassName('image-main');
+const imgSide = document.getElementsByClassName('image-side');
+let contatore = 0;
 const down = document.getElementById('down');
+const up = document.getElementById('up');
 
+console.log(up);
+console.log(down);
 
+down.addEventListener('click', function(){
+    imgMain[contatore].classList.remove('active');
+    imgSide[contatore].classList.remove('active2');
+    contatore--;
 
-up.addEventListener("click", function(){ 
-   
-}); 
+    if(contatore < 0) contatore = imgMain.length - 1;
+    imgMain[contatore].classList.add('active');
+    imgSide[contatore].classList.add('active2');
+    console.log(imgMain);
+})
 
+up.addEventListener('click', function(){
+    imgMain[contatore].classList.remove('active');
+    imgSide[contatore].classList.remove('active2');
+    contatore++;
 
-
-down.addEventListener("click", function(){ 
-   
-}); 
+    if(contatore > imgMain.length - 1) contatore = 0;
+    imgMain[contatore].classList.add('active');
+    imgSide[contatore].classList.add('active2');
+})

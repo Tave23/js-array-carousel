@@ -51,7 +51,6 @@ img{
 
 .aside-img img{
    opacity: 0.5;
-   
 }
 
 #up, #down{
@@ -72,10 +71,80 @@ img{
    bottom: 0;
 }
 
-.current-img{
+.image-main{
    display: none;
 }
 
-.active{
-   display: inline-block;
+.image-side{
+   display: block;
 }
+
+.active{
+   display: block;
+}
+
+.active2{
+   display: block;
+}
+
+/* .gp-item{
+   width: 100%;
+   object-fit: cover;
+}
+
+.gp-left{
+   height: 500px;
+}
+
+.gp-hidden{
+   display: none;
+}
+
+.gp-hidden.active{
+   display: block;
+}
+
+.gp-left-description{
+   position: absolute;
+   right: 20px;
+   bottom: 50px;
+   text-align: right;
+}
+
+.gp-right{
+   height: 100px;
+   filter: brightness(60%);
+}
+
+.gp-right.active2{
+   border: 3px solid white;
+   filter: brightness(100%);
+}
+
+.gp-up, .gp-down{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   background-color: white;
+   height: 30px;
+   width: 30px;
+   line-height: 30px;
+   border-radius: 50%;
+   vertical-align: middle;
+   text-align: center;
+   filter: brightness(70%);
+   transition: 0.3s;
+   cursor: pointer;
+}
+
+.gp-up{
+   top: 6px;
+}
+
+.gp-down{
+   bottom: 6px;
+}
+
+.gp-up:hover, .gp-down:hover{
+   filter: brightness(100%);
+} */
