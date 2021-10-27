@@ -39,6 +39,7 @@ img{
 
 .aside-img{
    height: calc(100% / 5);
+   background-color: chartreuse;
 }
 
 .up, .down{
