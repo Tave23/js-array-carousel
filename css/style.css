@@ -54,7 +54,7 @@ img{
    
 }
 
-.up, .down{
+#up, #down{
    position: absolute;
    color: black;
    font-size: 30px;
@@ -68,7 +68,7 @@ img{
    z-index: 999;
 }
 
-.down{
+#down{
    bottom: 0;
 }
 
