@@ -7,9 +7,10 @@ const up = document.getElementById('up');
 console.log(up);
 console.log(down);
 
-down.addEventListener('click', function(){
+up.addEventListener('click', function(){
     imgMain[contatore].classList.remove('active');
     imgSide[contatore].classList.remove('active2');
+    
     contatore--;
 
     if(contatore < 0) contatore = imgMain.length - 1;
@@ -18,9 +19,10 @@ down.addEventListener('click', function(){
     console.log(imgMain);
 })
 
-up.addEventListener('click', function(){
+down.addEventListener('click', function(){
     imgMain[contatore].classList.remove('active');
     imgSide[contatore].classList.remove('active2');
+
     contatore++;
 
     if(contatore > imgMain.length - 1) contatore = 0;

@@ -41,13 +41,6 @@ img{
    background-color: rgba(0, 0, 0, 0.8);
 }
 
-.aside-img:hover{
-   background-color: transparent;
-}
-
-.aside-img img:hover{
-   opacity: 1;
-}
 
 .aside-img img{
    opacity: 0.5;
@@ -84,6 +77,6 @@ img{
 }
 
 .active2{
-   display: block;
+   margin: 1px solid white;
 }
 
