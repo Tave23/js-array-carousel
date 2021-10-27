@@ -17,7 +17,6 @@ body{
    width: 60%;
    min-width: 400px;
    display: flex;
-   background-color: white;
 }
 
 .main-img{
@@ -39,7 +38,20 @@ img{
 
 .aside-img{
    height: calc(100% / 5);
-   background-color: chartreuse;
+   background-color: rgba(0, 0, 0, 0.8);
+}
+
+.aside-img:hover{
+   background-color: transparent;
+}
+
+.aside-img img:hover{
+   opacity: 1;
+}
+
+.aside-img img{
+   opacity: 0.5;
+   
 }
 
 .up, .down{
